@@ -1,0 +1,15 @@
+name: "Auto card assign"
+on:
+  project_card:
+    types: ["created", "moved"]
+
+jobs:
+  card_assign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: 1natsu172/github-action-auto-card-assign@master
+        id: card_assign_action
+        with:
+          milliseconds: 1000
+          # github_token: "${{ secrets.GITHUB_TOKEN }}"
+          # config: "card-assign.yml"
