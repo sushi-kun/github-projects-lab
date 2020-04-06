@@ -1,8 +1,12 @@
 kanban1:
-  To Do:
+  To do:
     - "1natsu172"
   In progress:
-    - "tatsushitoji"
-  Done:
+    - "1natsu172"
     - "tatsushitoji"
     - "bom-shibuya"
+  Review in progress:
+    - "bom-shibuya"
+  Reviewer approved:
+    - "tatsushitoji"
+  Done: []
