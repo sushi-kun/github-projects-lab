@@ -4,13 +4,12 @@ on:
     types: [closed]
 
 jobs:
-  get_linked_issue:
+  auto-move-related-issue:
     runs-on: ubuntu-latest
     steps:
       - uses: 1natsu172/github-action-get-linked-issue@master
         if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
-        id: get_linked_issue_action
+        id: auto-move-related-issue_action
         with:
-          milliseconds: 1000
           # github_token: "${{ secrets.GITHUB_TOKEN }}"
           config: "card-assign.yml"
