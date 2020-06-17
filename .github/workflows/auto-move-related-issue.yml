@@ -12,4 +12,4 @@ jobs:
         id: auto-move-related-issue_action
         with:
           # github_token: "${{ secrets.GITHUB_TOKEN }}"
-          config: "card-assign.yml"
+          config: "move-related-issue-on-merged.yml"
