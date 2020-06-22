@@ -1,4 +1,4 @@
-name: "Get Linked Issue"
+name: "Move related issue when merge pull request"
 on:
   pull_request:
     types: [closed]
