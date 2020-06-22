@@ -8,3 +8,4 @@ github projects で遊んでみるためのばしょ
 a
 aあ
 aあ
+あ
